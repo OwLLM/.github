@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/owl_hero.png" alt="OwLLM" width="160" />
+<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/owl_hero.png" alt="OwLLM" width="500" />
 
-# OwLLM
 
 ### An open platform for building, deploying, and running your own AI agent teams.
 
