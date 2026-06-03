@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/owl-hero.svg" alt="OwLLM" width="160" />
+<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/owl_hero.png" alt="OwLLM" width="160" />
 
 # OwLLM
 
