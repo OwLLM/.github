@@ -2,6 +2,14 @@
 
 <img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/owl_hero.png" alt="OwLLM" width="500" />
 
+# ⬇ [Download OwLLM for Windows](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe)
+
+### One file · ~30 MB · No admin required · Windows 10 / 11 x64
+
+[![installer](https://img.shields.io/badge/installer-OwLLM.Desktop.Setup.exe-3ec5d8?style=for-the-badge&logo=windows)](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe)
+[![portable](https://img.shields.io/badge/portable_(zip)-no_install-7e8aa0?style=for-the-badge)](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM-Desktop-Portable.zip)
+
+---
 
 ### An open platform for building, deploying, and running your own AI agent teams.
 
