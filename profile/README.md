@@ -2,12 +2,13 @@
 
 <img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/OWLLM_Hero.png" alt="OwLLM" width="500" />
 
-# ⬇ [Download OwLLM for Windows](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe)
+# ⬇ Download OwLLM
 
-### One file · ~30 MB · No admin required · Windows 10 / 11 x64
+### Windows 10 / 11 (x64) · Linux (x86_64) · one file, no admin required
 
-[![installer](https://img.shields.io/badge/installer-OwLLM.Desktop.Setup.exe-3ec5d8?style=for-the-badge&logo=windows)](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe)
-[![portable](https://img.shields.io/badge/portable_(zip)-no_install-7e8aa0?style=for-the-badge)](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM-Desktop-Portable.zip)
+[![Windows installer](https://img.shields.io/badge/Windows-OwLLM.Desktop.Setup.exe-3ec5d8?style=for-the-badge&logo=windows)](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe)
+[![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-e95420?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.AppImage)
+[![Linux .deb](https://img.shields.io/badge/Debian%2FUbuntu-.deb-a80030?style=for-the-badge&logo=debian&logoColor=white)](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.deb)
 
 ---
 
