@@ -13,11 +13,17 @@
 <br>
 
 <div align="center">
-
-| | | |
-|:-:|:-:|:-:|
-| [<img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/windows-card.svg" width="260" alt="Download OwLLM for Windows" />](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe) | [<img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/linux-card.svg" width="260" alt="Download OwLLM for Linux" />](https://github.com/OwLLM/owllm/releases/latest) | [<img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/macos-card.svg" width="260" alt="Watch for macOS release" />](https://github.com/OwLLM/owllm/releases/latest) |
-
+  <a href="https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe">
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/windows-card.svg" width="260" alt="Download OwLLM for Windows" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/OwLLM/owllm/releases/latest">
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/linux-card.svg" width="260" alt="Download OwLLM for Linux" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/OwLLM/owllm/releases/latest">
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/macos-card.svg" width="260" alt="Watch for macOS release" />
+  </a>
 </div>
 
 <br>
@@ -53,7 +59,7 @@ We believe:
 |---|---|
 | **[owllm](https://github.com/OwLLM/owllm)** | The flagship — desktop app, module registry, agent team templates, community contributions. Start here. |
 
-More to come: headless / VPS runner, public team marketplace, vision module — see the [roadmap](https://github.com/OwLLM/owllm#roadmap).
+More to come: headless / VPS runner, public team marketplace, vision module — see the [roadmap](https://github.com/OwLLM/owllm/blob/main/README.md#roadmap).
 
 ## How to get involved
 
