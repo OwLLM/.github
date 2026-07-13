@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/OWLLM_Hero.png" alt="OwLLM" width="500" />
+<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/OWLLM_Hero.png" alt="OwLLM" width="520" />
 
 # ⬇ Download OwLLM
 
@@ -8,53 +8,37 @@
 
 </div>
 
-<table>
+<br>
+
+<div align="center">
+
+<table width="100%">
 <tr>
 
 <td width="33%" valign="top" align="center">
-
-### 🪟 &nbsp;Windows
-
-**10 / 11 · x64**
-
-![shipping](https://img.shields.io/badge/shipping-2ea043?style=for-the-badge) &nbsp; ![EV-signed](https://img.shields.io/badge/EV--signed-3ec58a?style=for-the-badge)
-
-<a href="https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe"><img src="https://img.shields.io/badge/⬇%20Download-Setup.exe-3ec5d8?style=for-the-badge&logo=windows&logoColor=white" alt="Download the Windows installer" /></a>
-
-~30 MB · native CUDA GPU server · WSL2 sandbox · signed auto-updater
-
+  <a href="https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe">
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/windows-card.svg" alt="Download OwLLM for Windows" width="100%" />
+  </a>
 </td>
 
 <td width="33%" valign="top" align="center">
-
-### 🐧 &nbsp;Linux
-
-**x86-64**
-
-![shipping](https://img.shields.io/badge/shipping-2ea043?style=for-the-badge)
-
-<a href="https://github.com/OwLLM/owllm/releases/latest"><img src="https://img.shields.io/badge/⬇%20AppImage%20·%20.deb-e95420?style=for-the-badge&logo=linux&logoColor=white" alt="Download the Linux AppImage or .deb" /></a>
-
-AppImage runs unpacked (`chmod +x`) · `.deb` for Debian / Ubuntu · GPU probes · bubblewrap sandbox
-
+  <a href="https://github.com/OwLLM/owllm/releases/latest">
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/linux-card.svg" alt="Download OwLLM for Linux" width="100%" />
+  </a>
 </td>
 
 <td width="33%" valign="top" align="center">
-
-### 🍎 &nbsp;macOS
-
-**Apple Silicon · Metal**
-
-![next](https://img.shields.io/badge/next-d29922?style=for-the-badge)
-
-<a href="https://github.com/OwLLM/owllm/releases/latest"><img src="https://img.shields.io/badge/🔔%20Watch-for%20release-6e7681?style=for-the-badge&logo=apple&logoColor=white" alt="macOS build coming soon" /></a>
-
-Metal payload · unified-memory model sizing · Lima sandbox *(cross-platform CI configured)*
-
+  <a href="https://github.com/OwLLM/owllm/releases/latest">
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/macos-card.svg" alt="Watch for macOS release" width="100%" />
+  </a>
 </td>
 
 </tr>
 </table>
+
+</div>
+
+<br>
 
 <div align="center">
 
