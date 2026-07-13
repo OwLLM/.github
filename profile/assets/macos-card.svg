@@ -35,8 +35,15 @@
   <!-- Subtle corner orb -->
   <circle cx="296" cy="36" r="28" fill="url(#accent)" opacity="0.04"/>
 
-  <!-- OS Icon -->
-  <text x="170" y="70" font-size="42" text-anchor="middle" dominant-baseline="middle">🍎</text>
+  <!-- OS Icon: stylized apple -->
+  <g transform="translate(146, 36)">
+    <!-- Apple body -->
+    <path d="M24,12 C16,12 10,18 10,28 C10,40 18,50 24,50 C30,50 38,40 38,28 C38,18 32,12 24,12 Z" fill="#f0883e"/>
+    <!-- Top bite/indent -->
+    <path d="M18,16 Q24,10 30,16 Q24,14 18,16 Z" fill="#0d1117" opacity="0.3"/>
+    <!-- Leaf -->
+    <ellipse cx="28" cy="10" rx="6" ry="3" fill="#3fb950" transform="rotate(-30, 28, 10)"/>
+  </g>
 
   <!-- OS Name -->
   <text x="170" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f0883e" text-anchor="middle">macOS</text>

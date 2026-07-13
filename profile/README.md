@@ -17,19 +17,19 @@
 
 <td width="33%" valign="top" align="center">
   <a href="https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe">
-    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/windows-card.svg" alt="Download OwLLM for Windows" width="100%" />
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/windows-card.png" alt="Download OwLLM for Windows" width="100%" />
   </a>
 </td>
 
 <td width="33%" valign="top" align="center">
   <a href="https://github.com/OwLLM/owllm/releases/latest">
-    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/linux-card.svg" alt="Download OwLLM for Linux" width="100%" />
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/linux-card.png" alt="Download OwLLM for Linux" width="100%" />
   </a>
 </td>
 
 <td width="33%" valign="top" align="center">
   <a href="https://github.com/OwLLM/owllm/releases/latest">
-    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/macos-card.svg" alt="Watch for macOS release" width="100%" />
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/assets/macos-card.png" alt="Watch for macOS release" width="100%" />
   </a>
 </td>
 
