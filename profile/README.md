@@ -14,7 +14,7 @@
 
 <div align="center">
   <a href="https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe">
-    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/windows-card.svg" width="260" alt="Download OwLLM for Windows" />
+    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/windows-card.svg?v=2" width="260" alt="Download OwLLM for Windows" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/OwLLM/owllm/releases/latest">
