@@ -59,7 +59,7 @@ We believe:
 |---|---|
 | **[owllm](https://github.com/OwLLM/owllm)** | The flagship — desktop app, module registry, agent team templates, community contributions. Start here. |
 
-More to come: headless / VPS runner, public team marketplace, vision module — see the [roadmap](https://github.com/OwLLM/owllm/blob/main/README.md#roadmap).
+**Recently shipped:** cross-PC sync coordinator, **Fleet Control** (agents that drive your other machines over an encrypted channel), the live **World Map**, local vision models, and creator-marketplace groundwork. **Coming next:** headless / VPS runner, the full public team marketplace, and the macOS desktop — see the [roadmap](https://github.com/OwLLM/owllm/blob/main/README.md#roadmap).
 
 ## How to get involved
 
