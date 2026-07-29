@@ -13,8 +13,8 @@ Fine-tune models, verify work, ship releases, and operate your other machines fr
 
 [**Download**](#download) ·
 [**See what it does**](#one-workstation-the-whole-workflow) ·
-[**Get started**](https://github.com/OwLLM/owllm/blob/main/docs/GETTING_STARTED.md) ·
-[**Read the architecture**](https://github.com/OwLLM/owllm/blob/main/docs/ARCHITECTURE.md)
+[**Get started**](#quick-start) ·
+[**Read the architecture**](#safety-is-part-of-the-architecture)
 
 </div>
 
@@ -177,11 +177,8 @@ machine without changing the workflow.
   builds. Project environment recipes store labels and URLs, not passwords or
   cookies.
 
-See the
-[architecture guide](https://github.com/OwLLM/owllm/blob/main/docs/ARCHITECTURE.md)
-and
-[Remote Devices design](https://github.com/OwLLM/owllm/blob/main/owllm-desktop/docs/REMOTE_DEVICES.md)
-for the trust boundaries.
+See the [repository overview](https://github.com/OwLLM/owllm#readme) for the
+technical context behind these trust boundaries.
 
 ---
 
@@ -221,9 +218,9 @@ on the same computer.
 
 ## Learn, discuss, and report
 
-- 📘 [Getting started](https://github.com/OwLLM/owllm/blob/main/docs/GETTING_STARTED.md)
-- 🏗 [Architecture](https://github.com/OwLLM/owllm/blob/main/docs/ARCHITECTURE.md)
-- 🖥 [Cross-platform design](https://github.com/OwLLM/owllm/blob/main/docs/CROSS_PLATFORM.md)
+- 📘 [Quick start](#quick-start)
+- 🧭 [Repository and technical overview](https://github.com/OwLLM/owllm#readme)
+- 🖥 [Platform downloads](#download)
 - 🚀 [Latest release and changelog](https://github.com/OwLLM/owllm/releases/latest)
 - 💬 [Discussions](https://github.com/OwLLM/owllm/discussions)
 - 🐛 [Issues](https://github.com/OwLLM/owllm/issues)
