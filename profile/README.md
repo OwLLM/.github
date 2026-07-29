@@ -53,6 +53,19 @@ We believe:
 - **Power tools matter more than chat polish.** Fine-tuning, abliteration, quantization, red-teaming — the things serious users actually need.
 - **Cloud models are peers, not bosses.** Use them when they're the right tool; replace them when they're not.
 
+## More than an AI code editor
+
+OwLLM works **beside** VS Code, JetBrains, or Neovim. Your editor owns IntelliSense and debugging; OwLLM owns the agent and model lifecycle around it:
+
+- **Use the model you want:** local GGUF, cloud APIs, or the Claude Code, Codex, Gemini, and Kimi subscriptions you already pay for.
+- **Build the model that does the work:** turn documents and URLs into instruction datasets, fine-tune with LoRA/QLoRA, export and quantize to GGUF, then serve it locally.
+- **Prove and ship the result:** a repository-owned Verification Gate requires a real command to pass; the Publisher can bump, commit, tag, build, sign, release, and verify the updater.
+- **Work safely in parallel and across PCs:** Code pages use private Git worktrees; the cross-PC coordinator performs a real three-way merge, never force-pushes, and preserves conflicts.
+- **Reach beyond the editor:** the native agent browser tests localhost and live sites; messaging bridges let you steer from your phone; Fleet Control and NanoKVM/PiKVM let agents operate other machines — even at BIOS level.
+- **Keep the context:** durable team memory syncs across your PCs, while portable mode can keep OwLLM state and models on a USB drive.
+
+**VS Code writes code. OwLLM runs the workforce that verifies it, ships it, and operates the machines it runs on.**
+
 ## Repositories
 
 | | |
