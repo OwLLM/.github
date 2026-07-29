@@ -4,7 +4,7 @@
 
 # Your AI workstation — on your hardware, under your control
 
-**Run local models. Bring cloud APIs and subscriptions. Build agent teams.  
+**Run local models. Bring cloud APIs and subscriptions. Build agent teams.<br>
 Fine-tune models, verify work, ship releases, and operate your other machines from one desktop app.**
 
 [![Latest release](https://img.shields.io/github/v/release/OwLLM/owllm?display_name=tag&sort=semver&style=for-the-badge&label=Latest&color=3ec5d8)](https://github.com/OwLLM/owllm/releases/latest)
@@ -32,7 +32,7 @@ Windows 10 / 11 · x64
 
 [**Download `.exe`**](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe)
 
-Native CUDA inference  
+Native CUDA inference<br>
 WSL2 isolation
 
 </td>
@@ -44,7 +44,7 @@ AppImage
 
 [**Download `.AppImage`**](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.AppImage)
 
-Portable package  
+Portable package<br>
 NVIDIA, AMD, Intel probes
 
 </td>
@@ -56,7 +56,7 @@ Native package
 
 [**Download `.deb`**](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.deb)
 
-Desktop integration  
+Desktop integration<br>
 bubblewrap isolation
 
 </td>
@@ -68,7 +68,7 @@ Apple Silicon · Metal
 
 [**Download `.dmg`**](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.dmg)
 
-Unified-memory sizing  
+Unified-memory sizing<br>
 Lima isolation (beta)
 
 </td>
