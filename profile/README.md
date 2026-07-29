@@ -1,91 +1,245 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/OWLLM_Hero.png" alt="OwLLM" width="520" />
+<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/OWLLM_Hero.png" alt="OwLLM" width="560" />
 
-<h1>
-  <img src="https://img.shields.io/badge/⬇-Download%20OwLLM-3ec5d8?style=for-the-badge&logoColor=white" alt="Download OwLLM" />
-</h1>
+# Your AI workstation — on your hardware, under your control
 
-<p><strong>One file, no admin required — your AI agent workforce on your own hardware.</strong></p>
+**Run local models. Bring cloud APIs and subscriptions. Build agent teams.  
+Fine-tune models, verify work, ship releases, and operate your other machines from one desktop app.**
 
-</div>
+[![Latest release](https://img.shields.io/github/v/release/OwLLM/owllm?display_name=tag&sort=semver&style=for-the-badge&label=Latest&color=3ec5d8)](https://github.com/OwLLM/owllm/releases/latest)
+[![Windows, Linux, macOS](https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-shipping-2ea043?style=for-the-badge)](#download)
+[![License](https://img.shields.io/badge/license-proprietary-8b5cf6?style=for-the-badge)](https://github.com/OwLLM/owllm/blob/main/LICENSE)
 
-<br>
-
-<div align="center">
-  <a href="https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe">
-    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/windows-card.svg?v=2" width="260" alt="Download OwLLM for Windows" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/OwLLM/owllm/releases/latest">
-    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/linux-card.svg" width="260" alt="Download OwLLM for Linux" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/OwLLM/owllm/releases/latest">
-    <img src="https://raw.githubusercontent.com/OwLLM/.github/main/profile/macos-card.svg" width="260" alt="Watch for macOS release" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-
----
-
-### An open platform for building, deploying, and running your own AI agent teams.
+[**Download**](#download) ·
+[**See what it does**](#one-workstation-the-whole-workflow) ·
+[**Get started**](https://github.com/OwLLM/owllm/blob/main/docs/GETTING_STARTED.md) ·
+[**Read the architecture**](https://github.com/OwLLM/owllm/blob/main/docs/ARCHITECTURE.md)
 
 </div>
 
 ---
 
-## What we're building
+## Download
 
-Most AI tools give you a chatbox. OwLLM gives you a **workforce** — composable teams of specialised agents that you build, own, and run on your hardware, your VPS, or in a VM. 24/7. Local models or cloud APIs, your choice. Privacy by default.
+<table>
+<tr>
+<td width="25%" align="center" valign="top">
 
-## Why we exist
+### Windows
 
-Local AI today is in roughly the place the web was in 1995 — the open-weight models are real, the consumer hardware is there, and the workstation hasn't been built yet. The local-LLM tools that exist (Ollama, LM Studio, Jan) are great chatboxes. None of them help you compose a team of agents, fine-tune a model, ship a custom GGUF, or run a 24/7 agentic service on a $5/month VPS. That's the gap OwLLM fills.
+Windows 10 / 11 · x64
 
-We believe:
-- **You should own your AI workforce**, not rent it.
-- **The data layer is community-owned** — agent teams, role definitions, model profiles, MCP server recommendations all live in public, fork-and-PR.
-- **Privacy isn't a feature**, it's a default. The app is local-first. Nothing leaves your machine unless you explicitly send it.
-- **Power tools matter more than chat polish.** Fine-tuning, abliteration, quantization, red-teaming — the things serious users actually need.
-- **Cloud models are peers, not bosses.** Use them when they're the right tool; replace them when they're not.
+[**Download `.exe`**](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.exe)
 
-## More than an AI code editor
+Native CUDA inference  
+WSL2 isolation
 
-OwLLM works **beside** VS Code, JetBrains, or Neovim. Your editor owns IntelliSense and debugging; OwLLM owns the agent and model lifecycle around it:
+</td>
+<td width="25%" align="center" valign="top">
 
-- **Use the model you want:** local GGUF, cloud APIs, or the Claude Code, Codex, Gemini, and Kimi subscriptions you already pay for.
-- **Build the model that does the work:** turn documents and URLs into instruction datasets, fine-tune with LoRA/QLoRA, export and quantize to GGUF, then serve it locally.
-- **Prove and ship the result:** a repository-owned Verification Gate requires a real command to pass; the Publisher can bump, commit, tag, build, sign, release, and verify the updater.
-- **Work safely in parallel and across PCs:** Code pages use private Git worktrees; the cross-PC coordinator performs a real three-way merge, never force-pushes, and preserves conflicts.
-- **Reach beyond the editor:** the native agent browser tests localhost and live sites; messaging bridges let you steer from your phone; Fleet Control and NanoKVM/PiKVM let agents operate other machines — even at BIOS level.
-- **Keep the context:** durable team memory syncs across your PCs, while portable mode can keep OwLLM state and models on a USB drive.
+### Linux
 
-**VS Code writes code. OwLLM runs the workforce that verifies it, ships it, and operates the machines it runs on.**
+AppImage
 
-## Repositories
+[**Download `.AppImage`**](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.AppImage)
 
-| | |
+Portable package  
+NVIDIA, AMD, Intel probes
+
+</td>
+<td width="25%" align="center" valign="top">
+
+### Debian / Ubuntu
+
+Native package
+
+[**Download `.deb`**](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.deb)
+
+Desktop integration  
+bubblewrap isolation
+
+</td>
+<td width="25%" align="center" valign="top">
+
+### macOS
+
+Apple Silicon · Metal
+
+[**Download `.dmg`**](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.Setup.dmg)
+
+Unified-memory sizing  
+Lima isolation (beta)
+
+</td>
+</tr>
+</table>
+
+All four links resolve to stable asset names in the
+[latest GitHub release](https://github.com/OwLLM/owllm/releases/latest).
+
+---
+
+## One workstation, the whole workflow
+
+Most AI apps end at a chat window. OwLLM connects the entire lifecycle around
+the model: finding it, running it, teaching it, giving it tools, coordinating
+specialists, checking their work, publishing the result, and operating the
+machines it runs on.
+
+| | Capability | What it means in practice |
+|---|---|---|
+| 💻 | **Code projects** | A persistent coding workspace with plans, rules, diffs, files, terminal, browser, project history, and optional second-agent collaboration. |
+| 🎭 | **Agent teams** | An orchestrator delegates to specialist agents. Team mode and the focused Coder → Critic → Publisher solo loop share the same project. |
+| 📓 | **Notebook + memory** | Capture working notes, digest them into larger next steps, feed or auto-feed the queue, and keep durable project facts separate from recent worklog. |
+| 🌐 | **Native agent browser** | Agents open localhost or live sites, inspect pages, click, type, fill forms, and test desktop, phone, and tablet layouts in an OwLLM-owned browser. |
+| 🧩 | **Tools, skills, and MCP** | Native GGUF tool-calling, per-agent capabilities, reusable skills, and MCP servers with discovery and schema checks. |
+| 🧠 | **Model workshop** | Browse and run Local GGUF models, build datasets, fine-tune with LoRA/QLoRA, export and quantize GGUF, or perform model-safety research. |
+| ✅ | **Verification Gate + Publisher** | Completion depends on a real command and exit code. Publisher can version, build, sign, release, and verify an updater from the project rail. |
+| 🖥 | **Fleet Control** | Pair OwLLM installations, use models on another device, open a remote shell, or let approved agents run commands over an authenticated encrypted channel. |
+| 📱 | **Messaging bridges** | Route Telegram, WhatsApp, Discord, Slack, LINE, or email into a chosen project and model. |
+
+---
+
+## From an idea to a verified release
+
+1. **Start with the job, not a blank agent form.** Choose a web app, mobile app,
+   software project, research task, writing job, data workflow, personal
+   assistant, or a custom setup.
+2. **Brainstorm into a real brief.** The co-founder flow can research the idea,
+   write `BRIEF.md`, propose a team, and seed the implementation Notebook.
+3. **Run the right specialists.** An orchestrator delegates along a visible
+   execution graph; Solo Loop keeps smaller work focused.
+4. **Keep work separated.** Code pages and team agents use private Git
+   worktrees and branches, then merge with conflict detection.
+5. **Steer without stopping.** Mid-run messages become live steering; Notebook
+   steps can feed the current run or automatically launch the next clean step.
+6. **Prove the result.** The Verification Gate runs the repository's actual
+   check. Publisher handles the deterministic release steps only after the
+   project is ready.
+
+The conversation, selected models, project rules, Notebook, and useful memory
+return when the project is reopened.
+
+---
+
+## Use the model that fits the job
+
+| Model source | Support |
 |---|---|
-| **[owllm](https://github.com/OwLLM/owllm)** | The flagship — desktop app, module registry, agent team templates, community contributions. Start here. |
+| **Local** | GGUF inference through `llama.cpp`, automatic server start, hardware-aware model fit and context sizing, and local vision projectors. |
+| **Cloud APIs** | Anthropic, OpenAI, Gemini, Kimi, and OpenAI-compatible providers can work beside local models in the same project. |
+| **Subscriptions** | Use supported Claude Code, Codex, Gemini, and Kimi CLI subscriptions you already have; activity streams into the same OwLLM run view. |
+| **Another OwLLM device** | Offer a paired computer's models in the picker, or split the OpenAI-compatible inference server from the machines running the agents. |
 
-**Recently shipped:** cross-PC sync coordinator, **Fleet Control** (agents that drive your other machines over an encrypted channel), the live **World Map**, local vision models, and creator-marketplace groundwork. **Coming next:** headless / VPS runner, the full public team marketplace, and the macOS desktop — see the [roadmap](https://github.com/OwLLM/owllm/blob/main/README.md#roadmap).
+Local and cloud models are peers. A project can keep sensitive work local,
+choose a cloud model for one specialist, and use a stronger GPU on another
+machine without changing the workflow.
 
-## How to get involved
+---
 
-- 💻 **Use the app** — [latest release](https://github.com/OwLLM/owllm/releases/latest)
-- 💬 **Talk** — [Discussions](https://github.com/OwLLM/owllm/discussions)
-- 🎨 **Contribute** — agent teams, roles, translations, docs via [CONTRIBUTING.md](https://github.com/OwLLM/owllm/blob/main/CONTRIBUTING.md)
-- 🐛 **Report bugs** — [Issues](https://github.com/OwLLM/owllm/issues)
-- ⭐ **Star the repo** — the single best signal that this category is worth investing further in
+## Build, adapt, and test models locally
+
+- **Find the right model:** Hugging Face search, curated recommendations, and
+  fit ratings based on the selected GPU or unified-memory budget.
+- **Build datasets:** turn PDF, DOCX, URL, and text sources into instruction
+  JSONL with a selected model.
+- **Fine-tuning:** train LoRA/QLoRA adapters on your own hardware with live
+  progress and resumable workflows.
+- **Convert and quantize:** export Transformers models to GGUF in practical
+  Q4–Q8 or F16 variants.
+- **Work with vision:** compatible downloads fetch the required vision
+  projector so pasted images work with local models.
+- **Compare before deployment:** test local, API, and subscription models in
+  the multi-column chat playground before assigning them to agents.
+
+---
+
+## Safety is part of the architecture
+
+- **Local-first by default.** Local prompts, project files, model data, and
+  memory stay on systems you control. Cloud traffic happens only when a cloud
+  model or service is selected.
+- **OS-level tool isolation.** Agent commands can run inside WSL2 on Windows,
+  Lima on macOS, or bubblewrap on Linux. The project remains visible while the
+  rest of the host filesystem stays outside the working boundary.
+- **Layered protection.** Isolated worktrees, workspace write boundaries,
+  dangerous-command guards, scoped tools, and real verification checks cover
+  different failure modes.
+- **Network serving is opt-in.** Remote inference requires an explicit setting
+  and key. Use it on a trusted network, VPN, or tunnel — never as an
+  unauthenticated public endpoint.
+- **Remote control is opt-in and paired.** A matching account can help devices
+  discover each other, but it does not grant control. The target approves the
+  device and its permissions and can stop a live session.
+- **Credentials stay runtime-only.** Keys, tokens, certificates, browser
+  sessions, and account data are excluded from repositories and application
+  builds. Project environment recipes store labels and URLs, not passwords or
+  cookies.
+
+See the
+[architecture guide](https://github.com/OwLLM/owllm/blob/main/docs/ARCHITECTURE.md)
+and
+[Remote Devices design](https://github.com/OwLLM/owllm/blob/main/owllm-desktop/docs/REMOTE_DEVICES.md)
+for the trust boundaries.
+
+---
+
+## More than one computer
+
+OwLLM treats your machines as a small, user-owned AI infrastructure:
+
+- Keep native CUDA inference on a GPU workstation while agents run inside a
+  safer Linux environment elsewhere.
+- Pair another OwLLM machine and use its model catalogue from the same picker.
+- Sync projects across PCs with a three-way merge coordinator that never
+  force-pushes or silently chooses a side of a real conflict.
+- Use Fleet Control for authenticated diagnostics, interactive shells, WSL
+  commands, and deliberately approved agent access.
+- Connect a NanoKVM or PiKVM when an agent must see and operate a separate
+  machine beyond the OS — including recovery and BIOS-level workflows.
+- See live, anonymous OwLLM presence and your own fleet on the World Map.
+
+The model, the agents, the tools, and the controlled machine do not need to live
+on the same computer.
+
+---
+
+## Quick start
+
+1. [Download the package for your OS](#download) and launch OwLLM.
+2. Let onboarding detect the hardware and install the runtime modules needed
+   for that machine.
+3. Download a local model from **Models**, or connect an API/subscription from
+   **Accounts**.
+4. Open **Coding** for one focused agent, **Agentic Team** for coordinated work,
+   or **Train** to adapt a model.
+5. Keep the isolation badge on for tool-using projects, and define the
+   repository's real verification command before publishing.
+
+---
+
+## Learn, discuss, and report
+
+- 📘 [Getting started](https://github.com/OwLLM/owllm/blob/main/docs/GETTING_STARTED.md)
+- 🏗 [Architecture](https://github.com/OwLLM/owllm/blob/main/docs/ARCHITECTURE.md)
+- 🖥 [Cross-platform design](https://github.com/OwLLM/owllm/blob/main/docs/CROSS_PLATFORM.md)
+- 🚀 [Latest release and changelog](https://github.com/OwLLM/owllm/releases/latest)
+- 💬 [Discussions](https://github.com/OwLLM/owllm/discussions)
+- 🐛 [Issues](https://github.com/OwLLM/owllm/issues)
+
+## License
+
+OWLLM is proprietary software owned by **Far island Corporation Ltd.**
+Official unmodified executables may be used free of charge; the source is not
+licensed for copying, modification, redistribution, sublicensing, or sale.
+See the complete [OWLLM license](https://github.com/OwLLM/owllm/blob/main/LICENSE).
 
 ---
 
 <div align="center">
 
-*Your team of AI agents. Build them. Own them. Run them anywhere.*
+**Your models. Your agents. Your machines. One workstation.**
 
 </div>
+
