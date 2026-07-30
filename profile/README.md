@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/OWLLM_Hero.png" alt="OWLLM" width="560" />
+<img src="https://raw.githubusercontent.com/OwLLM/owllm/main/assets/OWLLM_Hero.png" alt="OWLLM" width="360" />
 
 # The AI workstation — not another AI tab
 
