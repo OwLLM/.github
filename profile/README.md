@@ -51,8 +51,9 @@ devices into one cross-platform desktop application.
 
 The installer is the workstation shell. Runtime modules are selected for the
 machine instead of bundling every engine into every download. Windows x64,
-Linux x86-64, and Apple Silicon have stable release packages; Lima isolation
-on macOS and bubblewrap isolation on Linux remain **beta**.
+Linux x86-64 and ARM64, and a universal macOS build (Apple Silicon + Intel)
+have stable release packages; Lima isolation on macOS and bubblewrap isolation
+on Linux remain **beta**.
 
 ---
 
@@ -347,7 +348,7 @@ assumed from a model name.
 
 | Status | Meaning in OWLLM |
 |---|---|
-| **Shipping** | Windows x64, Linux x86-64 AppImage/`.deb`, and Apple Silicon `.dmg`; Coding, teams, Studio, local inference modules, browser, Notebook/memory, verification, model workshop, bridges, and opt-in Fleet Control are present in the released application. |
+| **Shipping** | Windows x64, Linux x86-64 and ARM64 AppImage/`.deb`/`.rpm`, and a universal macOS `.dmg` (Apple Silicon + Intel); Coding, teams, Studio, local inference modules, browser, Notebook/memory, verification, model workshop, bridges, and opt-in Fleet Control are present in the released application. |
 | **Beta** | Lima isolation on macOS and bubblewrap isolation on Linux require more hardening than the proven Windows/WSL2 path. Platform-specific provider CLIs and model formats may also impose their own limits. |
 | **Experimental** | Gamify and the agent-driven world surfaces explore a more visual way to operate the same dispatch system. They are not presented as production release infrastructure. |
 
