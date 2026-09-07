@@ -45,7 +45,6 @@ devices into one cross-platform desktop application.
 </div>
 
 <div align="center">
-<sub>
 
 **Linux on ARM64 — Jetson, Raspberry Pi, ARM servers:** [OwLLM.Desktop.aarch64.AppImage](https://github.com/OwLLM/owllm/releases/latest/download/OwLLM.Desktop.aarch64.AppImage)
 
@@ -55,7 +54,6 @@ devices into one cross-platform desktop application.
 
 Every link above is permanent — it resolves to the newest release at the moment you click it, so it never needs updating when a release ships. The **AppImage** is the only Linux package the in-app updater can replace by itself; `.deb` and `.rpm` installs must be re-downloaded.
 
-</sub>
 </div>
 
 <!-- /owllm:downloads -->
