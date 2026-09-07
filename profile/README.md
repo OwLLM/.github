@@ -42,8 +42,11 @@ devices into one cross-platform desktop application.
 
 <div align="center">
 
+**Not sure which file?** → **[DOWNLOAD.md](https://github.com/OwLLM/owllm/blob/main/DOWNLOAD.md)**
+— one permanent link per machine, always the newest release
+
 **Linux:** [Choose the right package and install it](https://github.com/OwLLM/owllm/blob/main/INSTALL_LINUX.md)
-— Ubuntu/Debian, Fedora/RHEL, or AppImage · x86-64 or ARM64
+— Ubuntu/Debian, Fedora/RHEL, or AppImage · x86-64 or ARM64 · the **AppImage** updates itself
 &nbsp;&nbsp;|&nbsp;&nbsp;
 **Every platform:** [release notes and checksums](https://github.com/OwLLM/owllm/releases/latest)
 
